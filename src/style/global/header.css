@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #111;
+  background-color: #000;
   color: #fff;
 }
 
@@ -60,16 +60,16 @@
   .header-menu {
     gap: 20px;
   }
-  .header-menu li a {
-    background-color: #2e2e2e;
-    padding: 5px 10px;
-    font-size: 1rem;
-  }
 } 
 
 @media(max-width: 600px) {
   .header-menu {
     margin-top: 20px;
     flex-wrap: wrap;
+  }
+  .header-menu li a {
+    background-color: #2e2e2e;
+    padding: 5px 10px;
+    font-size: 1rem;
   }
 }

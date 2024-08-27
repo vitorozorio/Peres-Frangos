@@ -4,7 +4,6 @@
   box-shadow: inset 0 -120px white;
   color: #fff;
   font-family: "Poppins", sans-serif;
-
 }
 
 .introducao {
@@ -14,8 +13,8 @@
 }
 
 .introducao img {
-  width: 560px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 4px;
 }
@@ -38,6 +37,34 @@
 }
 
 .introducao-conteudo span {
-    color: #ffbf00;
+  color: #ffbf00;
 }
 
+@media (max-width: 1000px) {
+  .introducao h1 {
+    font-size: 2rem;
+  }
+  .introducao p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao h1 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+  }
+  .introducao p {
+    font-size: 0.9rem;
+  }
+  .introducao img {
+    width: 100%;
+    height: 500px;
+  }
+  .introducao-conteudo {
+    padding-bottom: 50px;
+  }
+}
