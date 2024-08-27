@@ -3,6 +3,8 @@
   /*criando margem negativa*/
   box-shadow: inset 0 -120px white;
   color: #fff;
+  font-family: "Poppins", sans-serif;
+
 }
 
 .introducao {
@@ -21,14 +23,21 @@
 .introducao h1 {
   font-size: 3rem;
   margin-bottom: 32px;
+  font-weight: bold;
 }
 
 .introducao p {
   margin-bottom: 20px;
+  font-size: 1.4rem;
+  color: #b2b2b2;
 }
 
 .introducao-conteudo {
   align-self: end;
-  padding-bottom: 300px;
+  padding-bottom: 250px;
+}
+
+.introducao-conteudo span {
+    color: #ffbf00;
 }
 

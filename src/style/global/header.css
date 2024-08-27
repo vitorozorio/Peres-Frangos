@@ -12,6 +12,17 @@
   padding-bottom: 40px;
 }
 
+.header span {
+  color: #ffbf00;
+}
+
+.header .logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
 .header > a {
   font-weight: bold;
   font-size: 1.5rem;
