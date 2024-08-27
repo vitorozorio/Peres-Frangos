@@ -1,0 +1,34 @@
+.introducao-bg {
+  background-color: #111;
+  /*criando margem negativa*/
+  box-shadow: inset 0 -120px white;
+  color: #fff;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.introducao img {
+  width: 560px;
+  height: 700px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.introducao h1 {
+  font-size: 3rem;
+  margin-bottom: 32px;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+}
+
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 300px;
+}
+
