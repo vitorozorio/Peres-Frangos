@@ -10,3 +10,6 @@
 
 /* Home*/
 @import './home/introducao.css';
+
+/* Cardapio Lista*/
+@import './cardapio/cardapio-lista.css';
