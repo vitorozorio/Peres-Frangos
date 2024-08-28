@@ -13,3 +13,6 @@
 
 /* Cardapio Lista*/
 @import './cardapio/cardapio-lista.css';
+
+/* Contato*/
+@import './contato/contato.css';
